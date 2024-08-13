@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Travel website</title />
+    <link rel="icon" href="startup.png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Engineer Space Trip Registeration</h1>
+        <p>Register now to get a chance to explore space with us</p>
+        <form id="reg-form">
+            <label for="name" class="n">Name</label>
+            <input type="text" class="name" name="name" placeholder="Name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" class="email" name="email" placeholder="email" required>
+            
+            <label class="nationality-label" for="country">Country</label>
+            <select   id="" >
+                <option hidden>Select your country</option>
+                <option value="Egypt">Egypt</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+            </select>
+            <br><br>
+            <label for="Experience lvl">Experience Level </label>
+            <div class="radio-group">
+                <input type="radio" name="Experience lvl" value="Beginner" required>Beginner
+                <input type="radio" name="Experience lvl" value="Intermediate" required>Intermediate
+                <input type="radio" name="Experience lvl" value="Expert" required>Expert
+            </div>
+            <br><br>
+            <label for="">why do you want to explore sace?</label><br>
+            <textarea name="motivational-q" id="motivational-q" rows="10" cols="20" placeholder="answer the question" required> </textarea>
+            
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">I agree to the terms and conditions</label>
+            </div>
+            
+            
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

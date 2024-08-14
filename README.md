@@ -25,7 +25,7 @@ This project is a simple, animated, and responsive registration form for a space
    git clone https://github.com/Muhammad0074/Space-Travel-Website.git
 
 2. **Navigate to the project directory**:
-   -cd space-travel-Website
+   - cd space-travel-Website
 
 3. **Open the `index.html` file in your web browser**:   
    - double click on `index.html`

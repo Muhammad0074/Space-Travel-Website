@@ -1,6 +1,6 @@
 # Space-Travel-Website
 
-This project is a simple, animated, and responsive registration form for a space travel website. The form allows users to sign up for a space trip, providing their name, email, country, experience level, and motivation for wanting to explore space. 
+This project is a simple, animated, and responsive registration form for a space travel website. The form allows users to sign up for a space trip, providing their name, email, country, experience level, and the reason for wanting to explore space. 
 
 
 ## features

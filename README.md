@@ -5,7 +5,7 @@ This project is a simple, animated, and responsive registration form for a space
 
 ## features
 
-****
+**Responsive Design**: The form is fully responsive and adjusts to different screen sizes, ensuring a smooth user experience across mobile devices, tablets, and desktops.
 **Css Animation**: animation used to enhance the visual appeal, such as floating text effects and fading in the form container.  
 **Custom Font**: i used 'orbitron' font to make form look more futuristik and make it suitable for the main concept of the website, which is a space trip.
 **Form Validation**: The form cannot be submitted if something is missing, such as the name, email, country, or level of experience.

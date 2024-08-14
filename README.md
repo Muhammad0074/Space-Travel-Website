@@ -13,9 +13,9 @@ This project is a simple, animated, and responsive registration form for a space
 
 ## Technologies Used
 
-**HTML**: The structure of the form.
-**CSS**: to add styling and animations.
-**JavaScript**: used to add behavior to the form.
+- **HTML**: The structure of the form.
+- **CSS**: to add styling and animations.
+- **JavaScript**: used to add behavior to the form.
 
 
 ## Setup Instructions

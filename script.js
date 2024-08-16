@@ -8,7 +8,7 @@ document.getElementById('reg-form').addEventListener('submit' , function(event){
     const experienceLevel = document.querySelector('input[name="Experience lvl"]:checked')?.value;
     const motivation = document.getElementById('motivational-q').value;
     
-    // create array to store data
+    // create array to store
     const data = [
         ["name","email","country","experience Level","motivation"],
         [name,email,country,experienceLevel,motivation]

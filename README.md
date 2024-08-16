@@ -9,13 +9,13 @@ This project is a simple, animated, and responsive registration form for a space
 - **Css Animation**: animation used to enhance the visual appeal, such as floating text effects and fading in the form container.  
 - **Custom Font**: i used 'orbitron' font to make form look more futuristik and make it suitable for the main concept of the website, which is a space trip.
 - **Form Validation**: The form cannot be submitted if something is missing, such as the name, email, country, or level of experience.
-
+- **Store Data**: The data entered by the user will be stored in an Excel file and downloaded to your device.
 
 ## Technologies Used
 
 - **HTML**: The structure of the form.
 - **CSS**: to add styling and animations.
-- **JavaScript**: used to add behavior to the form.
+- **JavaScript**: used to add behavior to the form to store data into excel sheet.
 
 
 ## Setup Instructions

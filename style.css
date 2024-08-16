@@ -1,3 +1,4 @@
+/* import 'orbitron' font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
 body {
@@ -8,6 +9,7 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
+    
 }
 
 .container {
@@ -32,6 +34,10 @@ p {
     font-size: 16px;
     margin-bottom: 20px;
 }
+.confirm{
+    text-align: center;
+    margin-top: 50px;
+}
 
 input[type="text"], input[type="email"], select, textarea {
     width: 90%;
@@ -54,7 +60,11 @@ input[type="text"]:focus, input[type="email"]:focus, select:focus, textarea:focu
     text-align: left;
 }
 .radio-group {
-    margin-top: 15px;
+    margin-top: 20px;
+    
+}
+.radio-group input[type="radio"] {
+    margin-left: 15px; 
 }
 
 button {
@@ -79,6 +89,8 @@ button:active {
     transform: translateY(0);
 }
 
+
+
 @keyframes floatText {
     from {
         transform: translateY(0);
@@ -87,7 +99,6 @@ button:active {
         transform: translateY(-10px);
     }
 }
-
 @keyframes fadeIn {
     from {
         opacity: 0;

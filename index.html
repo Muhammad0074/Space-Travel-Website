@@ -6,6 +6,10 @@
     <title>Space Travel website</title />
     <link rel="icon" href="startup.png" />
     <link rel="stylesheet" href="style.css">
+
+    <!-- script is used to include the xlsx library for handling Excel files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.3/xlsx.full.min.js"></script>
+
 </head>
 
 <body>
@@ -20,7 +24,7 @@
             <input type="email" class="email" name="email" placeholder="Email" required>
             
             
-            <select   id="" >
+            <select >
                 <option hidden>Select your country</option>
                 <option value="Egypt">Egypt</option>
                 <option value="USA">USA</option>
@@ -30,9 +34,9 @@
             <br><br>
             <label for="Experience lvl">Experience Level </label>
             <div class="radio-group">
-                <input type="radio" name="Experience lvl" value="Beginner" required>Beginner
-                <input type="radio" name="Experience lvl" value="Intermediate" required>Intermediate
-                <input type="radio" name="Experience lvl" value="Expert" required>Expert
+                <input type="radio" name="Experience lvl" value="Beginner" required>Junior
+                <input type="radio" name="Experience lvl" value="Intermediate" required>Mid
+                <input type="radio" name="Experience lvl" value="Expert" required>Senior
             </div>
             <br><br>
             <label for="">why do you want to explore sace?</label><br>
